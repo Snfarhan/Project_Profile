@@ -1,29 +1,270 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-<body>
-    <nav class="navbar navbar-expand-lg bg-border-bottom " style="background-color: #518ead">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#" style="color: white;">Fran</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#" style="color: white;">About</a>
-              <a class="nav-link" href="#" style="color: white;">Skills</a>
-              <a class="nav-link" href="#" style="color: white;">Projects</a>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Muhammad Farhan-Portfolio</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Simple line icons-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <style>
+          
+          .portfolio-item .caption-content p {
+              white-space: nowrap;
+              overflow: hidden; /* Clip overflowing content */
+              text-overflow: ellipsis; /* Add "..." at the end */
+          }
+        </style>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
+        <nav id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand"><a href="#page-top">Farhan</a></li>
+                <li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
+                <li class="sidebar-nav-item"><a href="#about">About</a></li>
+                <li class="sidebar-nav-item"><a href="#portfolio">Portfolio</a></li>
+                <li class="sidebar-nav-item"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Header-->
+        <header class="masthead d-flex">
+            <div class="container px-4 px-lg-5 text-center">
+                <h1 class="mb-1">Muhammad Farhan</h1>
+                <h3 class="mb-5"><em>Welcome to my portfolio!</em></h3>
+                <a class="btn btn-primary btn-xl fs-4" href="#about">Learn More!</a>
             </div>
-          </div>
-        </div>
-      </nav>
-      <script src="//code.tidio.co/6egtymldve4k1eu8bwslviyyjyofunfv.js" async></script>
-</body>
+        </header>
+        <!-- About-->
+        <section class="content-section bg-dark" id="about">
+            <div class="container px-4 px-lg-5 text-center">
+              <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-10 d-flex flex-column align-items-center">
+                  <div class="order-1">  <h2 class="text-white">About me:</h2>
+                  </div>
+                  <div class="order-2">  <p class="text-white mb-5 fs-4" style="margin-left: 2rem;">
+                      Driven by a passion for design and thirst for knowledge, I am a computer science student actively seeking opportunities
+                      to utilize and expand my skillset. I thrive in collaborative environments, where my strong teamwork skills, 
+                      creative problem-solving abilities, and clear communication help achieve shared goals. Highly adaptable and detail-oriented,
+                      I'm eager to contribute to a team's success while continuously learning and growing as a valuable asset.
+                    </p>
+                    <div class="card">
+                      <div class="card-header text-white text-bg-primary fs-5">
+                        Quote
+                      </div>
+                      <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                          <p>The future belongs to those who believe in the beauty of their dreams</p>
+                          <footer class="blockquote-footer">Shoyo Hinata from<cite title="Source Title"> Haikyu</cite></footer>
+                        </blockquote>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+        <!-- Callout-->
+        <section class="calloutt bg-dark">
+            <h2 class="text-center mx-auto mb-5 text-white">My Skills:</h2>  
+             <div class="container px-4 px-lg-5 text-center" style="padding-bottom: 10rem;">
+              <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                  <div class="card text-bg-light mb-3" style="max-width: 38rem;">
+                    <div class="card-header text-bg-primary text-white fs-3"><strong>Soft Skills</strong></div>
+                    <div class="card-body bg-dark">
+                      <p class="card-text fs-4 text-white"><strong> Communication<br>                
+                        Interpersonal<br>
+                        Leadership<br>
+                        Creative thinking<br>
+                        Problem Solving<br>
+                        Adaptable
+                        </strong>
+                    </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card text-bg-light mb-3" style="max-width: 38rem;">
+                    <div class="card-header text-bg-primary text-white fs-3"><strong>Technical Skills</strong></div>
+                    <div class="card-body bg-dark">
+                      <p class="card-text fs-4 text-white"><strong>C++<br>                
+                        Java<br>
+                        Python<br>
+                        Front-end coding<br>
+                        Matlab<br>
+                        MySQL
+                        </strong>
+                    </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        <!-- Portfolio-->
+        <section class="content-section" id="portfolio">
+            <div class="container px-4 px-lg-5">
+                <div class="content-section-heading text-center">
+                    <h3 class="text-secondary mb-0">Portfolio</h3>
+                    <h2 class="mb-5">Recent Projects</h2>
+                </div>
+                <div class="row gx-0">
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="#!">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Nafiza</div>
+                                    <p class="mb-0">Nafiza is a car rental management system designed to showcase object-oriented programming (OOP) principles. Developed collaboratively by myself, Zuha Noor, and Natasha Nassar, this Java application provides a user-friendly platform for car rentals.
+
+                                      Key Features:
+                                      
+                                      1.Extensive Car Catalog: Nafiza boasts a comprehensive catalog of vehicles, allowing users to browse and select a car that perfectly suits their needs.
+                                      
+                                      2.Dynamic Rental Cost Calculation: The application calculates rental costs in real-time, factoring in user-specified criteria such as chosen vehicle, rental duration, mileage allowance, and optional insurance coverage. This ensures transparency and facilitates informed decision-making for the user.
+                                      
+                                      The Future Enhancements for the Project will include a connection to a database, user account system, advanced car catalog search.</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio-1.jpg" alt="..." />
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="#!">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Remedi</div>
+                                    <p class="mb-0">Remedi is a mobile application designed to empower users with a convenient and reliable platform for managing their medication schedules. Built by a team consisting of myself, Vaishak Ravindranath, and Arwa Vora, this Flutterflow Application focuses on user-friendliness and leveraging the capabilities of modern smartphones.
+
+                                      Key Features:
+                                      
+                                      Streamlined Medication Management: Remedi offers a user-friendly interface for adding and organizing medication details, including medicine names, dosages, frequencies, and intake instructions. This comprehensive management system ensures all vital information is readily accessible.
+                                      
+                                      2.Customizable Reminders: Remedi goes beyond simple alerts. Users can set up personalized reminders with flexible scheduling options, ensuring medication is taken at the right time and with the appropriate frequency. 
+                                      
+                                      3.Medication Tracking  Remedi can optionally track medication history, offering insights into overall medication intake patterns. This information can be valuable for discussions with healthcare providers.
+                                      
+                                      Future Enhancements  for Remedi, will include medication interaction checks, refill reminders, or educational resources about medication adherence.</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio-2.jpg" alt="..." />
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="#!">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Gourmet Oasis</div>
+                                    <p class="mb-0">Gourmat Oasis is restaurant Website Project made using Bootstrap.
+
+                                      This project aims to create a user-friendly and responsive website for a restaurant using Bootstrap, a popular front-end framework.</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio-3.jpg" alt="..." />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Map-->
+        <section id="contact" class="contact bg-dark">
+            <div class="container" data-aos="fade-up">
+      
+              <div class="section-title text-center" style="padding-top: 3rem;">
+                <h3 class="text-white">Contact</h3>
+              </div>
+            </div>
+      
+            <div class="container" data-aos="fade-up">
+      
+              <div class="row mt-5">
+      
+                <div class="col-lg-4">
+                  <div class="info">
+                    <div class="address">
+                      <i class="bi bi-geo-alt-fill"></i>
+                      <h4 class="text-white">Location:</h4>
+                      <p class="text-white">Dubai,United Arab Emirates</p>
+                    </div>
+      
+                    <div class="email">
+                      <i class="bi bi-envelope-at-fill"></i>
+                      <h4 class="text-white">Email:</h4>
+                      <p class="text-white">snfarhan2014@gmail.com</p>
+                    </div>
+      
+                    <div class="phone">
+                      <i class="bi bi-telephone-inbound-fill"></i>
+                      <h4 class="text-white">Phone:</h4>
+                      <p class="text-white">+971 55 3438700</p>
+                    </div>
+      
+                  </div>
+      
+                </div>
+      
+                <div class="col-lg-8 mt-5 mt-lg-0">
+      
+                  <form class="php-email-form">
+                    <div class="row">
+                      <div class="col-md-6 form-group">
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                      </div>
+                      <div class="col-md-6 form-group mt-3 mt-md-0">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                      </div>
+                    </div>
+                    <div class="form-group mt-3">
+                      <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group mt-3">
+                      <textarea class="form-control" name="message" rows="8" placeholder="Message" required></textarea>
+                    </div>
+      
+                    <div class="text-center"><button type="submit" class="btn btn-primary btn-lg" style="margin-top: 2rem;" onclick="showAlert('Thank you for contacting us!')">Send
+                        Message</button></div>
+                        
+                  </form>
+      
+                </div>
+      
+              </div>
+      
+            </div>
+          </section>
+      
+        <!-- Footer-->
+        <footer class="footer text-center bg-dark">
+            <div class="container px-4 px-lg-5">
+                <ul class="list-inline mb-5">
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white mr-3" href="#!"><i class="icon-social-facebook"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white mr-3" href="#!"><i class="icon-social-twitter"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white" href="#!"><i class="icon-social-github"></i></a>
+                    </li>
+                </ul>
+                <p class="text-muted small mb-0">Copyright &copy; Your Website 2023</p>
+            </div>
+        </footer>
+        <!-- Scroll to Top Button-->
+        <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
